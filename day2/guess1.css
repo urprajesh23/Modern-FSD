@@ -1,0 +1,104 @@
+body{
+  background-color: black; 
+  color:white; 
+  font-size: larger;
+}
+
+.agian{
+    border: 2px solid black;   
+    padding: 20px 40px;
+    border-radius: 8px; 
+    font-size: larger;       
+}
+
+.agian:hover {
+    background-color: #23d148;    /* optional: hover effect */
+  }
+
+.btwn{
+  position: absolute;
+  top: 0vh;
+  right: 5vh;
+}
+
+.q-mark {
+  position: absolute;
+  top: 26vh;               /* adjusted to sit on the line */
+  left: 50%;
+  transform: translateX(-50%);
+  border: 2px solid white;
+  padding: 50px 40px;
+  color:black;
+  font-size: 24px;
+  text-align: center;
+  background-color: white; /* makes it "cut through" the line */
+  z-index: 10;             /* ensures it sits above the <hr> */
+  font-size: larger;
+}
+
+
+.s-guess{
+  position: absolute;
+  top: 35vh;
+  right: 50vh;
+  
+}
+
+.check-btn{
+  position: absolute;
+  bottom: 30vh;
+  left: 27vh;
+  border: 2px solid black;
+  padding: 20px 40px;
+  font-size: larger;
+  
+}
+
+#p-score{
+  position: absolute;
+  top: 45vh;
+  right: 55vh;
+
+}
+#score{
+  position: absolute;
+  top: -25px;
+  right: -3vh;
+
+}
+
+#p-h-score{
+  position: absolute;
+  top: 52vh;
+  right: 52vh;
+  color:white;
+
+}
+
+#h-score{
+
+  position: absolute;
+  top: -25px;
+  right: -3vh;
+
+}
+
+.i-box{
+  position: absolute;
+  bottom: 40vh;
+  left: 20vh;
+  border: 2px solid black;
+  padding: 20px 100px;
+  background-color: white;
+
+}
+
+#inputbox{
+  position: absolute;
+  bottom: 40vh;
+  left: 20vh;
+  padding: 30px 45px;
+}
+
+
+
