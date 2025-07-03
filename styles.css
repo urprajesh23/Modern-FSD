@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background: #f8f9fc;
+}
+
+.header, .hero, .main {
+  padding: 20px;
+}
+
+.nav, .nav-left, .nav-links, .nav-right, .author-section, .share-icons {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.logo { color: #e60023; font-weight: bold; }
+
+.hero {
+  background: linear-gradient(to right, #f3f8ff, #e0f0ff);
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.title { font-size: 28px; font-weight: bold; margin-bottom: 10px; }
+.subtitle { font-size: 14px; margin: 10px auto 20px; max-width: 600px; }
+.button {
+  background: #0077ff; color: #fff; padding: 10px 20px;
+  display: inline-block; border-radius: 5px; font-size: 14px;
+}
+
+.author-pic {
+  width: 40px; height: 40px; border-radius: 50%; background: gray;
+}
+
+.main-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 30px; max-width: 1000px; margin: auto;
+}
+
+.main-text p {
+  font-size: 14px;
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
+.sidebar { background: #f0f4f8; padding: 15px; font-size: 14px; border-radius: 6px; }
+.sidebar-title { font-weight: bold; margin-bottom: 10px; }
